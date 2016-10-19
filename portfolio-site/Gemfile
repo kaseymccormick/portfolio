@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 # --------------------------
 # mixin library for sass by thoughtbot
 gem 'bourbon'
+gem 'neat'
+
 
 
 # --------------------------
