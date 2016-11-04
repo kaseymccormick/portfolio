@@ -1,0 +1,25 @@
+.teal-background{
+    background-color: #48C0BF;
+}
+.dark-gray-background{
+    background-color: #4b4b4b;
+}
+.teal-text{
+    color: #48C0BF;
+}
+
+
+.topz-index{
+    z-index: 100;
+}
+.right-border{
+    border-right: solid 10px #4b4b4b;
+}
+
+.vertical-divider{
+
+}
+
+.vertical-divider__circle{
+
+}
