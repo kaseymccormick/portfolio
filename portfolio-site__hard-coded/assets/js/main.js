@@ -19,7 +19,7 @@ $(document).ready(function() {
     }
     // Check if the URL parameter is oranges
     else if (dynamicContent == 'oranges') {
-        $('#oranges').show();
+        $('.oranges').show();
     }
     // Check if the URL parameter is bananas
     else if (dynamicContent == 'bananas') {
