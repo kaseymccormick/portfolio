@@ -1,48 +1,91 @@
 <!doctype html>
 
 <head>
-  <link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css"/>
+  <!-- JS ADDITIONS-->
+  <!--jquery for ease of coding-->
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+  <!-- user added js for functionality additions-->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Style ADDITIONS-->
+  <!-- Pure css base for Normalization and grid for grid system-->
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/base-min.css">
+  <link rel="stylesheet" href="http://yui.yahooapis.com/combo?pure/0.6.0/base-min.css&pure/0.6.0/grids-min.css&pure/0.6.0/grids-responsive-min.css">
+
+  <!--user added style sheet-->
+  <link rel="stylesheet" type="text/css" href="assets/styles/main.css"/>
 </head>
 
 <body>
 <header>
 </header>
-<p class="teal-text">test</p>
-<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-<script src="assets/js/main.js"></script>
 
-<!-- Default Dynamic Section -->
 <div id="codeOne" class="dynamic-content case-study bananas">
-
   <div class="case-study__content ">
-
     <h1 class="case-study__content__header">Code One 2016</h1>
-
     <div class="case-study__content__images">
-      <img src="screenshot1.png" alt=""/>
-      <img src="screenshot2.png" alt=""/>
-      <img src="screenshot3" alt=""/>
+      <img src="assets/img/screenshot1.png" alt=""/>
+      <img src="assets/img/screenshot2.png" alt=""/>
+      <img src="assets/img/screenshot3.png" alt=""/>
     </div>
     <div class="case-study__content__summary">
-      <p>Short summary here ov various words to give maybe two or three sentances of what's going on.</p>
+      <p>Short summary here of various words to give maybe two or three sentances of what's going on.</p>
     </div>
     <div class="case-study__specs">
-      <div class="case-study__specs__teamates">
-        <ul class="no-list-style">
-          <li>
-            <ul>
-              <li>image</li>
-              <li>name</li>
-            </ul>
-          </li>
-          <li>
-            <ul class="no-list-style">
-              <li class="specs__teammate__picture"><img src="https://avatars2.githubusercontent.com/u/11672661?v=3&s=460" alt=""/></li>
-              <li><a href="https://github.com/Gmfholley">Wendy Holley</a></li>
-            </ul>
-          </li>
+      <ul class="case-study__specs__teamates no-list-style">
+        <li>
+          <ul class="no-list-style">
+            <li>image</li>
+            <li>name</li>
+          </ul>
+        </li>
+        <li>
+          <ul class="no-list-style">
+            <li class="specs__teammate__picture"><img src="https://avatars2.githubusercontent.com/u/12041410?v=3&s=400" alt=""/></li>
+            <li><a href="https://github.com/Gmfholley">Wendy Holley</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="case-study__specs__roles">
+        <ul class="role__dids">
+          <li>this</li>
+          <li>that</li>
+        </ul>
+        <ul class="role__didnts">
+          <li>not this</li>
+          <li>not that</li>
         </ul>
       </div>
+    </div>
+  </div>
+</div>
+
+<div id="formBuilder" class="dynamic-content case-study oranges">
+  <div class="case-study__content ">
+    <h1 class="case-study__content__header">ORANGES</h1>
+    <div class="case-study__content__images">
+      <img src="assets/img/screenshot1.png" alt=""/>
+      <img src="assets/img/screenshot2.png" alt=""/>
+      <img src="assets/img/screenshot3.png" alt=""/>
+    </div>
+    <div class="case-study__content__summary">
+      <p>Short summary here of various words to give maybe two or three sentances of what's going on.</p>
+    </div>
+    <div class="case-study__specs">
+      <ul class="case-study__specs__teamates no-list-style">
+        <li>
+          <ul class="no-list-style">
+            <li>image</li>
+            <li>name</li>
+          </ul>
+        </li>
+        <li>
+          <ul class="no-list-style">
+            <li class="specs__teammate__picture"><img src="https://avatars2.githubusercontent.com/u/12041410?v=3&s=400" alt=""/></li>
+            <li><a href="https://github.com/Gmfholley">Wendy Holley</a></li>
+          </ul>
+        </li>
+      </ul>
       <div class="case-study__specs__roles">
         <ul class="role__dids">
           <li>this</li>
@@ -59,20 +102,19 @@
 
 
 
+
 <div id="default-content" class="dynamic-content">
   This is the default content
 </div>
-<!-- Dynamic Section 1 -->
+
 <div id="apples" class="dynamic-content">
   I like apples
 </div>
 
-<!-- Dynamic Section 2 -->
 <div id="oranges" class="dynamic-content">
   I like oranges
 </div>
 
-<!-- Dynamic Section 3 -->
 <div id="bananas" class="dynamic-content bananas">
   I like bananas
 </div>
