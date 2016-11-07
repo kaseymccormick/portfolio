@@ -1,2 +1,18 @@
-##View
-this website []
+#Portfolio
+
+## Technical
+### Setup
+N/A simply visit at ->
+### Tech stack
+*Languages*
+HTML
+CSS
+Javascript
+*Libraries*
+Jquery
+##Trials and Tribulations
+due to
+>Mixed Content: The page at 'https://kaseymccormick.github.io/portfolio-site-OCT2016/?company=apples' was loaded over HTTPS, but requested an insecure stylesheet 'http://yui.yahooapis.com/combo?pure/0.6.0/base-min.css&pure/0.6.0/grids-min.css&pure/0.6.0/grids-responsive-min.css'. This request has been blocked; the content must be served over HTTPS.
+i've decided not to rely on pure.css grid system by yahoo but make my own as it's been something on my to do list for a while.
+###Resources
+http://jennamolby.com/how-to-display-dynamic-content-on-a-page-using-url-parameters/
