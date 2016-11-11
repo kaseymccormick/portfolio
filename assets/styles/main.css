@@ -48,6 +48,30 @@ body {
   text styles
 ----------------------------------*/
 /*------headers and paragraphs----*/
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    color: #282828;
+}
+h2{
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 20px;
+}
+h3{
+    font-family: 'Coming Soon', cursive;
+    font-size: 20px;
+}
+h4{
+ font-family: 'Satisfy', cursive;
+    font-size: 20px;
+}
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
 .pacifico{
 font-family: 'Pacifico', cursive;
 }
@@ -66,9 +90,7 @@ font-family: 'Sue Ellen Francisco', cursive;
 .abril  {
 font-family: 'Abril Fatface', cursive;
 }
-.lobster  {
-font-family: 'Lobster', cursive;
-}
+
 .gravitas  {
 font-family: 'Gravitas One', cursive;
 }
@@ -78,17 +100,29 @@ font-family: 'Lilita One', cursive;
 .josefin  {
 font-family: 'Josefin Slab', serif;
 }
-.vidloka  {
-font-family: 'Vidaloka', serif;
-}
+
 .open  {
 font-family: 'Open Sans Condensed', sans-serif;
 }
-.size14px{
+.itim{
+
+    font-family: 'Itim', cursive;
+}
+.comingsoon{
+
+font-family: 'Coming Soon', cursive;
+}
+.size20px li{
+    font-size: 20px;
+}
+.size40px li{
+    font-size: 40px;.
+}
+.size14px li{
     font-size: 14px;
    }
-.size60px{
-       font: 60px;
+.size60px li{
+       font-size: 60px;
    }
 
 /*------ul and li-----------------*/
@@ -116,6 +150,13 @@ font-family: 'Open Sans Condensed', sans-serif;
 /*----------------------------------
    positioning
 ----------------------------------*/
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
 /*-----------margin---------------*/
 
 /*----------padding---------------*/
