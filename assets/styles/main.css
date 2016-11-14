@@ -65,52 +65,39 @@ h3{
     font-family: 'Coming Soon', cursive;
     font-size: 20px;
 }
+h3 span{
+    font-family: 'Patrick Hand', cursive;
+}
 h4{
- font-family: 'Satisfy', cursive;
+    font-family: 'Satisfy', cursive;
     font-size: 20px;
 }
 p{
     font-family: 'Open Sans Condensed', sans-serif;
 }
-.pacifico{
-font-family: 'Pacifico', cursive;
-}
+
 .satisfy{
-font-family: 'Satisfy', cursive;
+    font-family: 'Satisfy', cursive;
 }
 .shadows  {
-font-family: 'Shadows Into Light Two', cursive;
+    font-family: 'Shadows Into Light Two', cursive;
 }
 .patrick  {
-font-family: 'Patrick Hand', cursive;
+    font-family: 'Patrick Hand', cursive;
 }
 .sue  {
-font-family: 'Sue Ellen Francisco', cursive;
-}
-.abril  {
-font-family: 'Abril Fatface', cursive;
-}
-
-.gravitas  {
-font-family: 'Gravitas One', cursive;
-}
-.lilitha  {
-font-family: 'Lilita One', cursive;
-}
-.josefin  {
-font-family: 'Josefin Slab', serif;
+    font-family: 'Sue Ellen Francisco', cursive;
 }
 
 .open  {
-font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .itim{
 
     font-family: 'Itim', cursive;
 }
 .comingsoon{
-
-font-family: 'Coming Soon', cursive;
+    font-family: 'Coming Soon', cursive;
 }
 .size20px li{
     font-size: 20px;
@@ -120,10 +107,10 @@ font-family: 'Coming Soon', cursive;
 }
 .size14px li{
     font-size: 14px;
-   }
+}
 .size60px li{
-       font-size: 60px;
-   }
+    font-size: 60px;
+}
 
 /*------ul and li-----------------*/
 .no-list-style{
@@ -156,7 +143,9 @@ font-family: 'Coming Soon', cursive;
 .float-right{
     float: right;
 }
-
+.clear{
+    clear: both;
+}
 /*-----------margin---------------*/
 
 /*----------padding---------------*/
