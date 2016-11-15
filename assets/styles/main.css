@@ -30,7 +30,9 @@ body {
 .col-1-3 {
     width: 33.33%;
 }
-
+.col-1-2 {
+    width: 50%;
+}
 [class*='col-'] {
     padding-right: 20px;
 }
@@ -54,8 +56,8 @@ body{
 }
 h1{
     font-family: 'Abril Fatface', cursive;
-    font-size: 30px;
-    color: #282828;
+    font-size: 50px;
+    color: #4b4b4b;
 }
 h2{
     font-family: 'Shadows Into Light Two', cursive;
@@ -99,18 +101,7 @@ p{
 .comingsoon{
     font-family: 'Coming Soon', cursive;
 }
-.size20px li{
-    font-size: 20px;
-}
-.size40px li{
-    font-size: 40px;.
-}
-.size14px li{
-    font-size: 14px;
-}
-.size60px li{
-    font-size: 60px;
-}
+
 
 /*------ul and li-----------------*/
 .no-list-style{
@@ -147,18 +138,54 @@ p{
     clear: both;
 }
 /*-----------margin---------------*/
+.margin-left-neg40{
+    margin-left:-120px;
+}
 
 /*----------padding---------------*/
-
+.padding-left-30px{
+    padding-left:30px;
+}
 /*----------------------------------
   display
 ----------------------------------*/
 .dynamic-content {
     display:none;
 }
-
-
 /*----------------------------------
-   other TODO
+   Navigation
 ----------------------------------*/
-
+.navigation{
+    position: fixed;
+    display: block;
+    height: 100%;
+    margin-right: 10px;
+    padding: 100px;
+}
+.content{
+    position: relative;
+    left:33.33%;
+}
+/*----------------------------------
+   Case Study
+----------------------------------*/
+.case-study{
+    border-top:1px solid #48C0BF;
+    padding: 20px 0px 20px 40px;
+}
+.case-study__content__summary{
+    width: 80%;
+}
+.case-study__content__images .col-1-3 img{
+    max-width: 200px;
+}
+.case-study__content__images .col-2-3 img{
+    max-width: 500px;
+}
+.specs__teammate__picture img {
+    max-width: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    float: left;
+    
+}
