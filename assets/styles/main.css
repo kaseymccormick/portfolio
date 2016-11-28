@@ -161,6 +161,7 @@ p{
     height: 100%;
     margin-right: 10px;
     padding: 100px;
+    color: white;
 }
 .navigation__image img{
     max-width: 200px;
@@ -169,6 +170,13 @@ p{
     border-radius:50%;
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
+}
+.navigation ul li a{
+    color: white;
+    text-decoration: none;
+}
+.navigation ul li a:hover, a:hover{
+    text-decoration: underline;
 }
 .content{
     position: relative;
@@ -186,14 +194,28 @@ p{
 }
 .case-study__content__images .col-1-3 img{
     max-width: 200px;
+    border: 10px solid white;
+    -webkit-box-shadow: 5px 5px 5px #adadad;
+    box-shadow: 5px 5px 5px #adadad;
 }
 .case-study__content__images .col-2-3 img{
     max-width: 500px;
+    border: 10px solid white;
+    -webkit-box-shadow: 5px 5px 5px #adadad;
+    box-shadow: 5px 5px 5px #adadad;
 }
 .specs__teammate__picture img {
     max-width: 60px;
     border-radius: 50%;
     margin-right: 10px;
     float: left;
-    
+}
+/*----------------------------------
+   Utilities
+----------------------------------*/
+.no-list-style{
+    list-style: none;
+}
+.white-text{
+    color: white;
 }
