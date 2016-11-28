@@ -154,7 +154,7 @@ note, .case-study__content__summary__quote a{
 /*----------------------------------
   display
 ----------------------------------*/
-.dynamic-content {
+.none, .no-display {
     display:none;
 }
 /*----------------------------------
