@@ -66,6 +66,10 @@ h2{
     margin-bottom: 0px;
 }
 h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
 }
 h4{
 }
@@ -154,7 +158,7 @@ note, .case-study__content__summary__quote a{
 /*----------------------------------
   display
 ----------------------------------*/
-.dynamic-content {
+.none, .no-display {
     display:none;
 }
 /*----------------------------------
@@ -181,6 +185,17 @@ note, .case-study__content__summary__quote a{
     text-decoration: none;
 }
 .navigation ul li a:hover, a:hover{
+    text-decoration: underline;
+}
+.navigation__introductory {
+    width: 115%;
+}
+.navigation__introductory a{
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+.navigation__introductory a:hover{
     text-decoration: underline;
 }
 .content{

@@ -9,24 +9,24 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 // Give the parameter a variable name
-var dynamicContent = getParameterByName('company');
+var viewer = getParameterByName('view');
 
 $(document).ready(function() {
 
     // Check if the URL parameter is apples
-    if (dynamicContent == 'apples') {
+    if (viewer == 'apples') {
         $('.apples').show();
     }
     // Check if the URL parameter is oranges
-    else if (dynamicContent == 'oranges') {
+    else if (viewer == 'oranges') {
         $('.oranges').show();
     }
     // Check if the URL parameter is bananas
-    else if (dynamicContent == 'bananas') {
+    else if (viewer == 'bananas') {
         $('.bananas').show();
     }
     // Check if the URL parmeter is empty or not defined, display default content
     else {
-        $('.case-study__content').show();
+        $('.case-study').show();
     }
 });
