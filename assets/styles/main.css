@@ -243,6 +243,9 @@ note, .case-study__content__summary__quote a{
     margin: 5px;
     float: left;
 }
+.also-on img{
+    width: 20px;
+}
 /*----------------------------------
    Utilities
 ----------------------------------*/
