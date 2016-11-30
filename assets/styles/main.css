@@ -231,6 +231,10 @@ note, .case-study__content__summary__quote a{
     border-bottom: 1px solid #48C0BF;
     padding: 20px 0px;
 }
+.case-study__specs__teamates a{
+    text-decoration: none;
+    color: #000;
+}
 .specs__teammate__picture img {
     max-width: 30px;
     border-radius: 50%;
